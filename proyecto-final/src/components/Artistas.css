@@ -1,0 +1,52 @@
+@import './variables.css'; /*fondos/colores*/
+
+/* Artista.css */
+
+.artista-card {
+    background-color: #F5EDED;
+    padding: .2rem;
+    margin: 10px;
+    border-radius: 10%;
+  }
+  
+  .artista-card li {
+    list-style-type: none; 
+  }
+  
+  .artista-foto:hover {
+    transform: scale(1.05);
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+  }
+  .artista-foto {
+    width: 15rem;
+    height: 16.8rem;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+  }
+  
+  .artista-info {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    gap: 1rem;
+  }
+
+  .artista-info:hover{
+    background-color: #6627be6e;
+    padding: 0.2rem;
+    border-radius: 1rem;
+  } 
+
+  .artista-info a:nth-child(2){
+    color: var(--clr-dark);
+    font-family: var(--font-family-small);
+    font-size: 1.2rem;
+  }
+
+  
+  .artista-logo {
+    width: 50px; /* Ajusta el ancho del logo según tus necesidades */
+    height: 50px; /* Ajusta la altura del logo según tus necesidades */
+    border-radius: 50%; /* Hace que el logo sea redondeado (puedes ajustar el porcentaje según tus necesidades) */
+  }

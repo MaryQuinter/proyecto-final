@@ -1,0 +1,19 @@
+.agregar-grupos{
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: #6627be8c solid 1px;
+}
+.agregar-grupos p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 0.4rem;
+}
+.agregar-grupos div{
+    display: inline-flex;
+    border: #000 solid 1px;
+    border-radius: 50%;
+    padding: 2rem;
+}
