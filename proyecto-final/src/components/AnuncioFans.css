@@ -1,0 +1,36 @@
+.contenedor-anuncio-fans{
+    background-image: url(../assets/img/anuncio.jpg);
+    padding:5rem 2.2rem;
+}
+.anuncio-fans{
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    padding: 3rem 2rem;
+}
+
+.anuncio-fans h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.anuncio-fans div a{
+    color: #068FFF;
+}
+
+.anuncio-fans button{
+    padding: 0.7rem;
+    border-radius: 7%;
+    border-style: hidden;
+    background-color: #068FFF;
+    color: #fff;
+}
+.anuncio-fans div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #526D82;
+    row-gap: 0.8rem;
+}

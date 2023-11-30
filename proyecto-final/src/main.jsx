@@ -5,6 +5,8 @@ import Nav from './components/Nav'
 import Banner from './components/Banner'
 import MisGrupos from './components/MisGrupos'
 import GenerosSection from './components/GenerosSection'
+import AnuncioFans from './components/AnuncioFans'
+import Footer from './components/Footer'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -13,5 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <MisGrupos/>
     <Artista/>
     <GenerosSection/>
+    <AnuncioFans/>
+    <Footer/>
   </React.StrictMode>,
 )

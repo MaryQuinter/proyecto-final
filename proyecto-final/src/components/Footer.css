@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+}
+.container-footer{
+    padding: 1rem;
+    background-color: #F3F3F3;
+}
+.container-footer div{
+    display: inline-flex;
+    width: 100%;
+    column-gap: 1rem;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.container-footer p{
+    display: flex;
+    justify-content: center;
+    color: #526D82;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 1rem;
+}
