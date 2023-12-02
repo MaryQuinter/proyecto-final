@@ -1,28 +1,21 @@
-import { artistas } from "../data/data.js";
-import './App.css';
-import Artista from "./Artistas.jsx"
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Home from './Home';
+import DetallesDeArtista from "./PaginaDos/DetallesDeArtista";
+import NotMatch from "./NotFound/NotMatch";
 
-const App = () => {
-    return (
-      <>
-        <h1 className="title-explora">Explora y sigue el ritmo de tus gustos</h1>
-        <article className="genero-container">
-          {artistas.map((categoria) => (
-            <div key={categoria.genero} className="genero-section">
-              <h2>
-                <span className="first-letter">{categoria.genero[0]}</span>
-                {categoria.genero.slice(1)}
-              </h2>
-              <ul className="artista-list">
-                {categoria.artistas.map((artista) => (
-                  <Artista key={artista.id} artista={artista} />
-                ))}
-              </ul>
-            </div>
-          ))}
-        </article>
-      </>
-    );
-  };
+function App() {
+  return (
+    <>
+    {/* estas son mis rutas  */}
+      <BrowserRouter>
+        <Routes> 
+          <Route path="/" element={<Home/>} />
+          <Route path="/detallesdeartista" element={<DetallesDeArtista/>} />
+          <Route path="*" element={<NotMatch/>} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
+}
 
 export default App;

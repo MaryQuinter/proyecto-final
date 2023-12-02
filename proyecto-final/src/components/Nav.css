@@ -8,6 +8,10 @@ nav{
     border-bottom: #BDBDD7 solid 1px;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--clr-light);
 }
 
 .sello-principal{

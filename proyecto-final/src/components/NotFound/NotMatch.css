@@ -1,0 +1,25 @@
+@import '../variables.css'; /*fondos/colores*/
+
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15rem;
+    gap: 2rem;
+    font-family: var(--font-family-big);
+    font-size: 1.2rem;
+  }
+
+  .not-found-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-family: var(--font-family-small);
+  }
+  
+  .not-found-image {
+    width: 3rem;
+    height: 3rem;
+  }
+  
