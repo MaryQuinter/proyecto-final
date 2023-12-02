@@ -1,5 +1,9 @@
 @import './variables.css'; /*fondos/colores*/
 
+strong{
+    color: #000;
+}
+
 nav{
     display: flex;
     flex-wrap: wrap;

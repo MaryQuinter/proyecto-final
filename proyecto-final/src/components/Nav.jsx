@@ -6,6 +6,7 @@ import hogarIcon from "../assets/icons/hogar.png";
 import bolsaIcon from "../assets/icons/bolsa-shop.png";
 import avatarIcon from "../assets/icons/avatar.png";
 import './Nav.css';
+import { Link } from 'react-router-dom'; 
 
 const Nav = () => {
   return (
@@ -14,7 +15,7 @@ const Nav = () => {
         <div className="logo-principal">
           <a className="sello-principal" href="index.html">
             <img src={ondaDeSonido} alt="Onda de sonido" />
-            <strong>ThumpThump</strong>
+            <Link to={"/"}><strong>ThumpThump</strong></Link>
           </a>
         </div>
 

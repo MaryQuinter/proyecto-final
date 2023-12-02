@@ -1,0 +1,7 @@
+@import './variables.css';
+
+h2{
+    padding: 2rem;
+    font-family: var(--font-family-big);
+    color: var(--clr-dark);
+}

@@ -3,7 +3,7 @@ import './Banner.css';
 const Banner = () => {
     return(
     <>
-        <section class="banner-negro">
+        <section className="banner-negro">
             <div>Disfruta de cada momento con tus artistas</div>
         </section>
     </>

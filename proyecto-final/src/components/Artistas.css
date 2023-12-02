@@ -38,7 +38,7 @@
     border-radius: 1rem;
   } 
 
-  .artista-info a:nth-child(2){
+  .artista-info strong{
     color: var(--clr-dark);
     font-family: var(--font-family-small);
     font-size: 1.2rem;
